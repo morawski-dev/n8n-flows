@@ -31,11 +31,19 @@ The agent operates in **two main stages**.
 The assistant first collects the necessary data to generate an ESPI report.  
 It asks the user for specific details, automatically fills in standard elements, and prepares the HTML version for PDF generation.
 
-### **Stage 2 – Publishing the Report**
+### **Stage 2 – Publishing the Report in CMS**
 
 
 Once the report is ready, the assistant asks:
 
 > “Would you like to publish the report on the website?”
 
-If the user confirms, it triggers the **Publish Post** tool.
+If the user confirms, it triggers the **Publish Post to CMS** tool.
+
+### **Stage 3 – Publishing the Report in ESPI / EBI**
+
+After the report is published in CMS, the assistant asks:
+
+> "Do you want to publish the report in ESPI / EBI?"
+
+If the user confirms, it triggers the **Publish to ESPI/EBI** tool.
